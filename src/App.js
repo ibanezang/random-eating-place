@@ -6,7 +6,7 @@ import RandomPickControl from './components/RandomPickControl';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <EatingPlaceList places={eatingPlaces}></EatingPlaceList>
       <RandomPickControl places={eatingPlaces}/>
     </div>
